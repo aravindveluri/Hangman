@@ -1,0 +1,26 @@
+---
+:misses:
+- s
+- f
+- g
+- h
+- j
+- k
+- q
+- w
+:guesses: 1
+:secret_word: dipolar
+:output:
+- d
+- i
+- p
+- o
+- l
+- a
+- r
+:visible:
+  i: true
+  d: true
+  l: true
+  a: true
+:win?: false
