@@ -233,7 +233,7 @@ def pre_game_initialize
     game.game_data[:secret_word] = Dictionary.new.pick_word
     game.game_data[:output] = game.game_data[:secret_word].split('')
     game.set_visible game.game_data[:secret_word]
-    puts game.game_data
+    # puts game.game_data
     game.play_game screen
     game.end_game screen
   elsif type_of_game == "2"
@@ -247,7 +247,7 @@ def pre_game_initialize
       game.game_data[:secret_word] = Dictionary.new.pick_word
       game.game_data[:output] = game.game_data[:secret_word].split('')
       game.set_visible game.game_data[:secret_word]
-      puts game.game_data
+      # puts game.game_data
       game.play_game screen
       game.end_game screen
 

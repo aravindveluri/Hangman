@@ -1,26 +1,27 @@
 ---
 :misses:
-- s
-- f
-- g
-- h
-- j
-- k
-- q
-- w
-:guesses: 1
-:secret_word: dipolar
+- l
+- v
+- e
+- c
+- b
+- m
+:guesses: 3
+:secret_word: dissonant
 :output:
 - d
 - i
-- p
+- s
+- s
 - o
-- l
+- n
 - a
-- r
+- n
+- t
 :visible:
-  i: true
   d: true
-  l: true
+  o: true
   a: true
+  n: true
+  t: true
 :win?: false
